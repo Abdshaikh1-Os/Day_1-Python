@@ -1,0 +1,319 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "524c8d8c-98ac-4324-9af9-e1320612cd34",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "fullname=\"Abdullah \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "0edd2f3b-7376-494f-8559-84ac5392f678",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Abdullah\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(fullname)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "cf039769-b4bd-4381-bae4-8d7dabf4ff5c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Abdullah\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(fullname.title())"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "bfb5841b-4243-4fd6-9f0d-2b0ba88e2dc7",
+   "metadata": {},
+   "source": [
+    "print(fullname.lower())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "8b05ebef-798a-4924-9304-cf2d14b092cd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "message=f\" keep up the good work, {fullname.title()}\""
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "23bdc991-2327-43c0-9ad8-d7bf944251ee",
+   "metadata": {},
+   "source": [
+    "print(message)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "c6b3c07e-d78d-4077-910d-d319a37112a9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "message=f' keep up the good work, {fullname.title()}'"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "b7181508-02ec-461b-b9d6-b6a5be02b0e6",
+   "metadata": {},
+   "source": [
+    "print(message)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "f2bceed9-c233-42a4-865e-f6ac29945c7a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "fav_prog:pyhton,c++,java,swift\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"fav_prog:pyhton,c++,java,swift\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "156b6363-e7fd-4e95-9833-e4142ba4a56a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "fav_prog:\n",
+      "\\python\n",
+      "\\c++\n",
+      "\\java\n",
+      "\\swift\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"fav_prog:\\n\\python\\n\\c++\\n\\java\\n\\swift\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9378be7f-38c5-4f13-9a6a-d92a8525b54c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "d533a768-c125-4e6e-ac91-7c9e9f6d454c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name=\" pyhon\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "b0c38805-ade8-4797-9edf-22a23d2d4024",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "pyhon\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(name.lstrip())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "e28f0afc-05b5-47eb-8fd3-ee1aa63e6622",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name=\"duffer \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "d5b1987e-3d96-4ce4-9386-3fe84a38c4a0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "duffer\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(name.rstrip())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "ab6db096-36bd-462b-85a2-93ed98b3555d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "('abd', 'swa', 'rah', 'prak', 'rose')\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "3a963b41-be9a-40ed-b250-20f03d20b6f8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "students=(\"abd,swa,rah,prak,rose\",)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "16e28067-b523-490b-9a51-a8df15c0a261",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "print(studen"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "1f0c2174-6a9f-49f5-9bb3-87541c63607a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "abd,swa,rah,prak,rose,\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "07491ebb-b8f0-4297-abd0-de965f27fe87",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "a1737143-50f9-4734-babf-4c5ecaba9818",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "b\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e5f61a29-0568-4251-a40f-8d3914a52c45",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "anaconda-2022.05-py39",
+   "language": "python",
+   "name": "conda-env-anaconda-2022.05-py39-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
